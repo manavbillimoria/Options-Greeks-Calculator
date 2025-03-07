@@ -13,23 +13,24 @@ It allows users to:
 The **Black-Scholes model** is used to price European call and put options:
 
 ### **📌 Call & Put Option Price Formulas**
-\[
+$$
 C = S N(d_1) - K e^{-rT} N(d_2)
-\]
+$$
 
-\[
+$$
 P = K e^{-rT} N(-d_2) - S N(-d_1)
-\]
+$$
 
 where:
 
-\[
+$$
 d_1 = \frac{\ln(S/K) + (r + \sigma^2 / 2)T}{\sigma \sqrt{T}}
-\]
+$$
 
-\[
+$$
 d_2 = d_1 - \sigma \sqrt{T}
-\]
+$$
+
 
 ### **📌 Parameters**
 - **S** = Stock price  
