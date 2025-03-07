@@ -62,7 +62,8 @@ $$
 ---
 
 ## 🚀 **Installation & Setup**
-### **1️⃣ Clone the Repository**
+### **Clone the Repository and Install Dependencies**
 ```bash
 git clone https://github.com/your-username/Options-Greeks-Calculator.git
 cd Options-Greeks-Calculator
+pip install -r requirements.txt
